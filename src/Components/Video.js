@@ -9,19 +9,22 @@ import Walkathon from "../Assets/Walkathon.jpeg";
 import GoodDay from "../Assets/GoodDay.jpeg";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/esm/Container";
-
+import "../index.css";
 export class Video extends Component {
   render() {
     return (
       <div>
         <Container fluid>
-          <div className="d-flex justify-content-between">
+          <div
+            id="Videos "
+            className="d-flex flex-wrap bd-highlight example-parent"
+          >
             <a href="https://www.youtube.com/watch?v=P8qivvdNqUw">
               <Image
                 src={Christmas}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -31,7 +34,7 @@ export class Video extends Component {
                 src={Basketball}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -41,7 +44,7 @@ export class Video extends Component {
                 src={ShutDown}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -51,7 +54,7 @@ export class Video extends Component {
                 src={CharityEvent}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -61,7 +64,7 @@ export class Video extends Component {
                 src={Tuskeegee}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -71,7 +74,7 @@ export class Video extends Component {
                 src={GoodDay}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
@@ -81,7 +84,7 @@ export class Video extends Component {
                 src={Walkathon}
                 width="auto"
                 height="auto"
-                className="p-2 col-example text-left"
+                className="p-2 bd-highlight col-example"
                 fluid
               />
             </a>
