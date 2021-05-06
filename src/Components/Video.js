@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 import Christmas from "../Assets/Christmas.jpeg";
+import Basketball from "../Assets/Basketball.jpeg";
+import ShutDown from "../Assets/ShutDown.jpeg";
+import CharityEvent from "../Assets/CharityEvent.jpeg";
+import Tuskeegee from "../Assets/Tuskeegee.jpeg";
+import Walkathon from "../Assets/Walkathon.jpeg";
+import GoodDay from "../Assets/GoodDay.jpeg";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/esm/Container";
 
@@ -9,15 +15,77 @@ export class Video extends Component {
     return (
       <div>
         <Container fluid>
-          <a href="https://www.youtube.com/watch?v=P8qivvdNqUw">
-            <Image
-              src={Christmas}
-              width="auto"
-              height="auto"
-              className="d-block"
-              fluid
-            />
-          </a>
+          <div className="d-flex justify-content-between">
+            <a href="https://www.youtube.com/watch?v=P8qivvdNqUw">
+              <Image
+                src={Christmas}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=Cx9njmX-Vxc">
+              <Image
+                src={Basketball}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=MIJEUZ7A_sY">
+              <Image
+                src={ShutDown}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=d7-SDtSGqDg">
+              <Image
+                src={CharityEvent}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=zKpFajHV-GE">
+              <Image
+                src={Tuskeegee}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=dkgKCuiN7WM">
+              <Image
+                src={GoodDay}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=x8YjVnARxM4">
+              <Image
+                src={Walkathon}
+                width="auto"
+                height="auto"
+                className="p-2 col-example text-left"
+                fluid
+              />
+            </a>
+          </div>
         </Container>
       </div>
     );
