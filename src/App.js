@@ -32,6 +32,8 @@ function App() {
           activeKey="/"
           style={{
             borderTop: "solid 2px DodgerBlue",
+            marginLeft: "5%",
+            marginRight: "5%",
           }}
         >
           <Nav.Item>

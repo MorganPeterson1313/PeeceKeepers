@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import Card from "react-bootstrap/Card";
 import { Switch, Route, Link, NavLink } from "react-router-dom";
 import Contact from "./Contact";
@@ -24,9 +24,8 @@ export class Home extends Component {
 
           <div style={{ marginLeft: "10%" }}>
             <Card
+              id="AboutCard"
               style={{
-                width: "30rem",
-                height: "55rem",
                 position: "absolute",
                 top: "9",
                 right: "2",
@@ -35,6 +34,7 @@ export class Home extends Component {
                 opacity: "90%",
                 marginTop: "5%",
               }}
+              fluid
             >
               <Card.Body style={{ color: "white" }}>
                 <Card.Title>About Us</Card.Title>
@@ -93,6 +93,7 @@ export class Home extends Component {
                 position: "relative ",
                 border: "50px #073763 solid ",
               }}
+              fluid
             />
           </div>
 
@@ -103,6 +104,7 @@ export class Home extends Component {
             height="auto"
             className="d-inline-block align-top"
             style={{ marginTop: "10%", border: "50px #073763 solid " }}
+            fluid
           />
           <Switch>
             <Route path="/contact" component={Contact} />
