@@ -12,20 +12,20 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 568px) {
-  #AboutCard {
-    box-sizing: border-box;
-    width: 16rem;
-    border: solid white 10px;
-    flex-grow: auto;
-    flex-wrap: wrap;
-    position: unset;
-  }
-}
-
 @media screen and (max-width: 1368px) {
   #AboutCard {
     width: 30rem;
     height: 55rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #AboutCard {
+    box-sizing: border-box;
+    width: 15rem;
+    border: solid white 10px;
+    flex-grow: auto;
+    flex-wrap: wrap;
+    position: unset;
   }
 }
