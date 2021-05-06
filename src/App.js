@@ -10,6 +10,7 @@ import Home from "./Components/Home";
 import Image from "react-bootstrap/Image";
 import { Switch, Route, Link, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import Video from "./Components/Video";
 
 function App() {
   return (
@@ -53,9 +54,11 @@ function App() {
             </Nav.Link>
           </Nav.Item>
 
-          {/* <Nav.Item>
-      <Nav.Link style={{color:"#803CAE"}} href="/services">Services</Nav.Link>
-    </Nav.Item> */}
+          <Nav.Item>
+            <Nav.Link style={{ color: "#85200c" }} href="/video">
+              See us in Action
+            </Nav.Link>
+          </Nav.Item>
 
           {/* <p className="text-center mt-4 mb-4">Or right-aligned</p> */}
           {/* <Nav className="justify-content-end" activeKey="/home"> */}
@@ -79,7 +82,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/donate" component={Donate} />
-
+          <Route path="/video" component={Video} />
           <Route path="/events" component={Events} />
 
           <Route path="/contact" component={Contact} />
