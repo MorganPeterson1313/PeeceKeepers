@@ -14,7 +14,7 @@ import Container from "react-bootstrap/Container";
 function App() {
   return (
     <div className="App">
-      <Container>
+      <Container fluid>
         <Nav.Link href="/">
           <Image
             alt="logo"
