@@ -21,6 +21,7 @@ export class About extends Component {
               roundedCircle
               style={{ marginTop: "2%", marginBottom: "5%" }}
               href="/"
+              fluid
             />
             <h1 style={{ color: "white", marginBottom: "5%" }}>
               P.E.E.C.E KEEPERS
