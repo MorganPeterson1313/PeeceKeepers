@@ -27,6 +27,14 @@ code {
     flex-grow: auto;
     flex-wrap: wrap;
     position: unset;
+    font-size: 12px;
+  }
+  #AboutCard h4 {
+    color: #073763;
+  }
+  #AboutCard #AboutCardButton {
+    font-size: 12px;
+    color: red;
   }
 }
 

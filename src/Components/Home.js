@@ -37,15 +37,17 @@ export class Home extends Component {
               fluid
             >
               <Card.Body style={{ color: "white" }}>
-                <Card.Title>About Us</Card.Title>
+                <Card.Title>
+                  <h4>About Us</h4>
+                </Card.Title>
                 {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                 <Card.Text style={{ color: "white" }}>
-                  <p>
+                  <p id="AboutTextpOne">
                     P.E.E.C.E. KEEPERS is a catalyst for change dedicated to
                     promoting mental health awareness and wellness.
                   </p>
 
-                  <p>
+                  <p id="AboutTextpTwo">
                     <h4>Our goals</h4>
                     are to join with positive community activist who seek to
                     promote positive social progress and ethical growth in
@@ -55,7 +57,7 @@ export class Home extends Component {
                     lives of our children, elders, and less fortunate.
                   </p>
 
-                  <p>
+                  <p id="AboutTextpThree">
                     <h4>Our mission</h4> is to restore balance, promote peace
                     and inspire ethical growth in communities of crisis and
                     social systems breakdown. Our goal is to help people empower
@@ -63,18 +65,16 @@ export class Home extends Component {
                     emotionally, and spiritually and encourage others’ inherent
                     goodness.
                   </p>
-                  <p>
+                  <p id="AboutTextpFour">
                     <h4>P.E.E.C.E.</h4>
                   </p>
-                  <p>Positive Energy Engaging Communities Everywhere</p>
-                  <p>Algrie Monique Bridges</p>
-                  <p>Chief Executive Officer </p>
+                  <p id="AboutTextpFour">
+                    Positive Energy Engaging Communities Everywhere
+                  </p>
+                  <p id="AboutTextpFive">Algrie Monique Bridges</p>
+                  <p id="AboutTextpSix">Chief Executive Officer </p>
                 </Card.Text>
-                <Button
-                  variant="light"
-                  style={{ color: "teal" }}
-                  href="/contact"
-                >
+                <Button id="AboutCardButton" variant="light" href="/contact">
                   Get In Touch
                 </Button>
                 {/* <Card.Link href="#">Another Link</Card.Link> */}
