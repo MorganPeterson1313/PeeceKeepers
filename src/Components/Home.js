@@ -81,7 +81,7 @@ export class Home extends Component {
               </Card.Body>
             </Card>
 
-            <Image
+            {/* <Image
               alt="Peace Sign"
               src={World}
               width="auto"
@@ -94,7 +94,7 @@ export class Home extends Component {
                 border: "50px #073763 solid ",
               }}
               fluid
-            />
+            /> */}
           </div>
 
           <Image

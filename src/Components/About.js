@@ -11,7 +11,10 @@ export class About extends Component {
     return (
       <div>
         <Container>
-          <Jumbotron style={{ margin: "10%", backgroundColor: "#073763" }}>
+          <Jumbotron
+            id="AboutPageJumbotron"
+            style={{ margin: "10%", backgroundColor: "#073763" }}
+          >
             <Image
               alt="logo"
               src={peecelogo}
