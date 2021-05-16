@@ -43,7 +43,7 @@ export class About extends Component {
               Psychology from Marymount College of Fordham University in New
               York. During this time I had the great experience of holding a
               mentorship position with the Director of Psychology, Milton
-              Steinberg, in which we develo9ped an interactive website mapping
+              Steinberg, in which we developed an interactive website mapping
               the brain and it’s function for the educational and research use
               of brain injury patients, students, and many other inquisitive
               minds throughout the world.
