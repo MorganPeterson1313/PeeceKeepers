@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-export class Events extends Component {
+export class employ extends Component {
   render() {
     return <div></div>;
   }
 }
 
-export default Events;
+export default employ;
