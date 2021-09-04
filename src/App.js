@@ -26,7 +26,7 @@ function App() {
           <Nav.Link href="/">
             <div style={{ display: "flex" }}>
               <Image
-                alt="logo"
+                alt="scale of justice"
                 src={scale}
                 width="180px"
                 height="150px"
@@ -35,15 +35,15 @@ function App() {
                 style={{ marginTop: "6%" }}
                 href="/"
               />
-              <div>
-                <p
+              <div style={{ margin: "0 auto" }}>
+                <h1
                   style={{
                     color: "gold",
                     fontSize: "50px",
                   }}
                 >
                   Riverside County Family Mediation
-                </p>
+                </h1>
                 <p
                   style={{
                     color: "gold",
@@ -88,7 +88,10 @@ function App() {
             </Nav.Item> */}
 
             <Dropdown>
-              <Dropdown.Toggle variant="info" id="dropdown-basic">
+              <Dropdown.Toggle
+                style={{ background: "gold" }}
+                id="dropdown-basic"
+              >
                 Practice Areas
               </Dropdown.Toggle>
 
