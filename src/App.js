@@ -35,7 +35,7 @@ function App() {
                 style={{ marginTop: "6%" }}
                 href="/"
               />
-              <div style={{ margin: "0 auto" }}>
+              <div style={{ marginLeft: "5%" }}>
                 <h1
                   style={{
                     color: "gold",
@@ -51,6 +51,10 @@ function App() {
                   }}
                 >
                   You Matter
+                </p>
+                <p style={{ color: "black" }}>
+                  Disclaimer we are not employees of nor affiliated with the
+                  Riverside Family Court
                 </p>
               </div>
             </div>
@@ -89,24 +93,27 @@ function App() {
 
             <Dropdown>
               <Dropdown.Toggle
-                style={{ background: "gold" }}
+                style={{ background: "black" }}
                 id="dropdown-basic"
               >
                 Practice Areas
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
-                <Dropdown.Item href="#/family">Family Mediation</Dropdown.Item>
-                <Dropdown.Item href="#/special">
+                <Dropdown.Item href="/family">
+                  Family Mediation & Contested Adoptions
+                </Dropdown.Item>
+                <Dropdown.Item href="/special">
                   Special Education Mediation
                 </Dropdown.Item>
-                <Dropdown.Item href="#/employ">Employment</Dropdown.Item>
-                <Dropdown.Item href="#/partnership">
-                  Business Partner Dispute
-                </Dropdown.Item>
-                <Dropdown.Item href="#/court">
+                <Dropdown.Item href="/court">
+                  {" "}
                   Court Order Mediation
                 </Dropdown.Item>
+                <Dropdown.Item href="/partnership">
+                  Business Disputes
+                </Dropdown.Item>
+                <Dropdown.Item href="/employ">Employment</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
 

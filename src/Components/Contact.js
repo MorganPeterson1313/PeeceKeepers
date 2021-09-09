@@ -20,9 +20,9 @@ export class Contact extends Component {
             marginBottom: "5%",
           }}
         >
-          <Card style={{ width: "30rem", backgroundColor: "#073763" }}>
+          <Card style={{ width: "30rem", backgroundColor: "grey" }}>
             <Card.Body>
-              <Card.Title style={{ color: "white" }}>Get In touch</Card.Title>
+              <Card.Title style={{ color: "gold" }}>Get In touch</Card.Title>
               <Card.Text>
                 <section id="footer">
                   <div class="container">
@@ -41,7 +41,7 @@ export class Contact extends Component {
                         />
                         <Form.Group controlId="formBasicEmail">
                           <Row>
-                            <Form.Label style={{ color: "white" }}>
+                            <Form.Label style={{ color: "gold" }}>
                               First Name
                             </Form.Label>
                             <Form.Control
@@ -49,7 +49,7 @@ export class Contact extends Component {
                               name="first-name"
                               placeholder="Enter First Name"
                             />
-                            <Form.Label style={{ color: "white" }}>
+                            <Form.Label style={{ color: "gold" }}>
                               Last Name
                             </Form.Label>
                             <Form.Control
@@ -58,7 +58,7 @@ export class Contact extends Component {
                               placeholder="Enter Last Name"
                             />
                           </Row>
-                          <Form.Label style={{ color: "white" }}>
+                          <Form.Label style={{ color: "gold" }}>
                             Email address
                           </Form.Label>
                           <Form.Control
@@ -66,13 +66,13 @@ export class Contact extends Component {
                             name="email"
                             placeholder="Enter email"
                           />
-                          <Form.Text style={{ color: "white" }}>
+                          <Form.Text style={{ color: "gold" }}>
                             We'll never share your email with anyone else.
                           </Form.Text>
                         </Form.Group>
 
                         <Form.Group controlId="exampleForm.ControlTextarea1">
-                          <Form.Label style={{ color: "white" }}>
+                          <Form.Label style={{ color: "gold" }}>
                             Message
                           </Form.Label>
                           <Form.Control as="textarea" rows={3} name="message" />
